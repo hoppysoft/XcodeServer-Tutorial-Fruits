@@ -42,10 +42,10 @@ class FruitsTests: XCTestCase {
 	func testDecodingJSONCorrectly() throws {
 		XCTAssertNotNil(fruits)
 	}
-
-	func testFruitsContainsBanana() throws {
-		XCTAssert(fruits.contains { $0.name == "Banana 🍌" })
-	}
+//
+//	func testFruitsContainsBanana() throws {
+//		XCTAssert(fruits.contains { $0.name == "Banana 🍌" })
+//	}
 }
 
 extension FruitsTests {
